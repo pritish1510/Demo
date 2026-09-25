@@ -1,0 +1,12 @@
+node_modules/
+dist/
+target/
+.npm-cache/
+backend/uploads/
+backend/data/
+.venv/
+__pycache__/
+.pytest_cache/
+*.log
+.DS_Store
+*.zip

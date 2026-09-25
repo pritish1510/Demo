@@ -1,0 +1,1 @@
+package com.verimetrix.backend.repo; import com.verimetrix.backend.model.RuleResult; import org.springframework.data.jpa.repository.JpaRepository; import java.util.Optional; public interface RuleResultRepository extends JpaRepository<RuleResult,Long>{ Optional<RuleResult> findByInspectionIdAndRuleId(Long inspectionId,String ruleId); }
