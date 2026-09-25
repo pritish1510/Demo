@@ -138,4 +138,5 @@ cd ai-engine && .venv/bin/pip install -r requirements-dev.txt && .venv/bin/pytho
 
 The AI engine tests cover every rule on synthetic OCR output, the HTTP contract the backend relies on, and — when Tesseract is installed — a real OCR run on the Parle-G label in `ai-engine/test.png`.
 #   D e m o  
+ #   D e m o  
  
